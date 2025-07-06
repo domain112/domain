@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>도메인 판매 중</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #ffffff;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .message {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+      background-color: #2a2a2a;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+      animation: slideUp 1s ease-out;
+    }
+
+    .message p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin: 12px 0;
+    }
+
+    .message strong {
+      color: #58a6ff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <p>해당 도메인은 판매 중입니다.<br>
+       구매를 원하실 경우 아래 메일로 연락 부탁드립니다.</p>
+
+    <p><strong>메일 주소:</strong> domainhosting112@gmail.com</p>
+
+    <p>This domain is for sale.<br>
+       For inquiries, please contact us at the email address below.</p>
+
+    <p><strong>Email:</strong> domainhosting112@gmail.com</p>
+  </div>
+</body>
+</html>
