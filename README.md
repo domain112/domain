@@ -23,10 +23,10 @@
 </head>
 <body>
   <div class="message">
-    해당 도메인은 판매 중입니다. 아래 메일로 연락 부탁드립니다.
+    해당 도메인은 판매 중입니다. 구매를 원하실 경우 아래 메일로 연락 부탁드립니다.
     메일 주소 : domainhosting112@gmail.com
 
-    This domain is for sale. Please contact us at the email address below
+    This domain is for sale. For inquiries Please contact us at the email address below
     Email: domainhosting112@gmail.com
   </div>
 </body>
